@@ -249,25 +249,23 @@ npm start
 
 Create a `.env` file in the project root with the following variables:
 
-| Variable | Description | Required | Example |
-|----------|-------------|----------|---------|
-| `DATABASE_URL` | PostgreSQL connection string (pooled) | ✅ | `postgresql://user:pass@host:6543/db?pgbouncer=true` |
-| `DIRECT_URL` | PostgreSQL direct connection (for migrations) | ✅ | `postgresql://user:pass@host:5432/db` |
-| `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` | Clerk publishable key | ✅ | `pk_test_...` |
-| `CLERK_SECRET_KEY` | Clerk secret key | ✅ | `sk_test_...` |
-| `NEXT_PUBLIC_CLERK_SIGN_IN_URL` | Sign-in page path | ✅ | `/sign-in` |
-| `NEXT_PUBLIC_CLERK_SIGN_UP_URL` | Sign-up page path | ✅ | `/sign-up` |
-| `NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL` | Redirect after sign-in | ✅ | `/onboarding` |
-| `NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL` | Redirect after sign-up | ✅ | `/onboarding` |
-| `NEXT_PUBLIC_STREAM_API_KEY` | Stream public API key | ✅ | `zcg49ax...` |
-| `STREAM_SECRET_KEY` | Stream secret key | ✅ | `rhj3xwe...` |
-| `GEMINI_API_KEY` | Google Gemini API key | ✅ | `AIzaSy...` |
-| `ARCJET_KEY` | Arcjet security key | ✅ | `ajkey_01...` |
-| `RESEND_API_KEY` | Resend email API key | ✅ | `re_93ri...` |
-| `ADMIN_PAYOUT_PASSWORD` | Password for approving payouts | ❌ | `your-secret-password` |
-| `NEXT_PUBLIC_APP_URL` | Public app URL (for email links) | ❌ | `https://prept.vercel.app` |
+DATABASE_URL=
+DIRECT_URL=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=
+NEXT_PUBLIC_STREAM_API_KEY=
+STREAM_SECRET_KEY=
+GEMINI_API_KEY=
+ARCJET_KEY=
+RESEND_API_KEY=
+ADMIN_PAYOUT_PASSWORD=
+NEXT_PUBLIC_APP_URL=
 
-> ⚠️ **Never commit real secrets to version control.** The values above are placeholders.
+> 
 
 ---
 
