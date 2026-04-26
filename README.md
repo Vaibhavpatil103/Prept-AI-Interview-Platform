@@ -13,7 +13,7 @@
 
 <br />
 
-<img src="https://github.com/user-attachments/assets/f79664d4-7d61-4067-8c7e-938990d54ca9" alt="Prept — AI Interview Platform" width="100%" />
+
 
 </div>
 
